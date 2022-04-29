@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Página web Doña Milanesa</title>
     <link rel="shortcut icon" href="img/Imagenmila.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="#">Inicio</a>
+        <nav class="topnav">
+            <a href="#inicio" class="active">Inicio</a>
             <a href="#">Nosotros</a>
-            <a href="#">Galeria</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contacto</a>
+            <a href="#productos">Productos</a>
+            <a href="#services">Servicios</a>
+            <a href="#contacto">Contacto</a>
         </nav>
-        <section class="textos-header">
+
+        <section class="textos-header" id="inicio">
             <h1>Y tu,¿Ya probaste las nuestras?</h1>
             <h2>Las mejores de la ciudad</h2>
         </section>
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </section>
-        <section class="portafolio">
+        <section id="productos" class="portafolio">
             <div class="contenedor">
                 <h2 class="titulo">Productos</h2>
                 <div class="galeria-port">
@@ -155,7 +155,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="contacto">
             <div class="contenedor">
 
                 <h1 class="titulo">Contactanos</h1>
@@ -211,7 +211,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-services">
+        <section id="services" class="about-services">
             <div class="contenedor">
                 <h2 class="titulo">Nuestros servicios</h2>
                 <div class="servicio-cont">
@@ -243,7 +243,7 @@
         </section>
 
     </main>
-    <footer>
+    <footer >
         <div class="contenedor-footer">
             <div class="content-foo">
                 <h4>Telefono</h4>
