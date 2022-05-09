@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'open sans';
+body, table{
+    font-family: 'Lato', sans-serif;
 }
+
+
 
 .contenedor {
     padding: 60px 0;
@@ -28,12 +30,29 @@ header {
     width: 100%;
     height: 600px;
     background: #c31432;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(266, 67%, 13%, 0.671), hsla(350, 81%, 42%, 0.568)), url(../img/Portada.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(266, 67%, 13%, 0.671), hsla(350, 81%, 42%, 0.61)), url(../img/Portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
+    background: -webkit-linear-gradient(to right, hsla(266, 67%, 13%, 0.671), hsla(350, 81%, 42%, 0.568)), url(../img/portada.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(266, 67%, 13%, 0.671), hsla(350, 81%, 42%, 0.61)), url(../img/portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-attachment: fixed;
     position: relative;
+    background-size: 1700px;
 }
+/*
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+*/
 
 
 .topnav {
@@ -70,24 +89,6 @@ header {
     background-color: #ffb200;
     color: #ed0007;
 }
-
-/*
-nav{
-    text-align: right;
-    padding: 30px 50px 0 0;
-}
-
-nav > a{
-    color:#fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-nav > a:hover{
-    text-decoration: underline;
-}
-*/
 
 header .textos-header{
     display: flex;
@@ -191,12 +192,13 @@ main .sobre-nosotros{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: rgba(29, 18, 18, 0.7);
+    background: rgba(167, 10, 21, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 40px;
 }
 
 .hover-galeria img{
@@ -204,8 +206,36 @@ main .sobre-nosotros{
 }
 
 .hover-galeria p{
+    color:white;
+    flex:inherit;
+    font-size: 15px;
+    font-weight: 1000;
+
+    font-family: 'Lato', sans-serif;
+}
+
+.hover-galeria a{
+    margin-top: 255px;
+    text-decoration:none;
+    /*
+    font-weight: 600;
+
+     */
+    font-size: 15px;
+    color:#000000;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:#a31010;
+    border-color: #ffe53c;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:15px;
     color: white;
 }
+
+
 
 .imagen-port:hover .hover-galeria{
     transform: scale(1);
@@ -274,9 +304,11 @@ main .sobre-nosotros{
 }
 
 .servicio-ind p{
-    font-weight: 300;
+    font-weight: 500%;
     text-align: justify;
+
 }
+
 
 
 footer{
@@ -505,6 +537,7 @@ ul {
     outline: 0;
     color: black;
     border-bottom: 1px solid #d63031;
+    background: cover;
 }
 
 .contact-form form button {
@@ -523,3 +556,33 @@ ul {
     outline: 0;
 }
 
+
+
+.detalle-producto{
+    width: 100%;
+    text-align: center;
+}
+
+.detalle-producto img{
+    width: 90%;
+}
+
+.detalle-producto h3{
+    margin: 10px 0;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.detalle-producto h2{
+    margin: 10px 0;
+    color: #7f0000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.detalle-producto p{
+    font-weight: 500%;
+    text-align: justify;
+
+}

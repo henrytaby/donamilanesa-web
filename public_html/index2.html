@@ -8,17 +8,18 @@
     <title>Página web Doña Milanesa</title>
     <link rel="shortcut icon" href="img/Imagenmila.png" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="Inicio">
     <header>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Galeria</a>
-            <a href="#">Servicios</a>
-            <a href="#">Contacto</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
         </nav>
         <section class="textos-header">
             <h1>Y tu,¿Ya probaste las nuestras?</h1>
@@ -31,167 +32,249 @@
             </svg></div>
     </header>
     <main>
-        <section class="contenedor sobre-nosotros">
-            <h2 class="titulo">Nuestro producto</h2>
+        <section id="nosotros" class="contenedor sobre-nosotros">
+            <h2 class="titulo">Nosotros</h2>
             <div class="contenedor-sobre-nosotros">
                 <img src="img/imagen1.png" alt="" class="imagen-about-us">
                 <div class="contenido-textos">
-                    <h3><span>1</span>Los mejores productos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
-                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
-                        velit doloribus laboriosam ut.</p>
-                    <h3><span>2</span>Los mejores productos</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam eius aspernatur ad
-                        consequuntur aperiam minima sed dicta odit numquam sapiente quam eum, architecto animi pariatur,
-                        velit doloribus laboriosam ut.</p>
+                    <h3><span>1</span>Nuestra historia</h3>
+                    <p>Somos una empresa basada en las tradiciones culinarias familiares,
+                        la cual Las Milanesas tienen un lugar privilegiado, por eso hace ya unos
+                        años desde el 2014 dadas las vueltas de la vida nos pusimos a comercializar
+                         uno de nuestros platos preferidos pero en un formato práctico y fácil de hacer a la
+                          hora de comer. Nuestras milanesas de Pollo y Carne.</p>
+                    <h3><span>2</span>Nuestra misión</h3>
+                    <p>Somos una empresa especialista en la elaboracion de comida rapida dedicados al gusto de los clientes,
+                         que antepone la alimentacion a cualquier otro interés.</p>
+                        <h3><span>3</span>Nuestra visión </h3>
+                    <p>Ser líderes del mercado nacional y en la preferencia del corazón de cada boliviano, con una
+                        excelente y responsable gestión comercial y administrativa.</p>
                 </div>
             </div>
         </section>
-        <section class="portafolio">
+        <section id="galeria" class="portafolio">
             <div class="contenedor">
                 <h2 class="titulo">Productos</h2>
                 <div class="galeria-port">
                     <div class="imagen-port">
                         <img src="img/imgr 2000x2000 px (2).png" alt="">
                         <div class="hover-galeria">
-                            <p><center> SALCHIPAPA <br>
-                            20BS. <br></center></p>
+                            <p> Salchipapa <br>
+                            20BS. <br><a href="#">
+                                <input type="button" value="Detalles">
+                            </a></p>
                         </div>
                     </div>
                     <div class="imagen-port">
                         <img src="img/imgr 2000x2000 px (3).png" alt="">
                         <div class="hover-galeria">
-                            <p><center>SILPANCHO <br>Cochabambino <br>25BS.</center></p>
+                            <p>Silpancho <br>Cochabambino <br>25BS. <br> <a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen4.jpeg" alt="">
+                        <img src="img/imga.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p>  Milanesa <br> Clasica <br>(Res o pollo) <br> 20BS. <br><a href="#">
+                                <input type="button" value="Detalles">
+                            </a>  </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen5.jpeg" alt="">
+                        <img src="img/imgb.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p>  Lomito  <br> Especial <br> 25bs. <br> <a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen6.jpeg" alt="">
+                        <img src="img/imgc.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p>  Choripan <br> 18BS. <br><a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen7.jpeg" alt="">
-                        <div class="hover-galeria">                           
-                            <p>Nuestro trabajo</p>
-                        </div>
-                    </div>
-                    <div class="imagen-port">
-                        <img src="img/imagen8.jpeg" alt="">
+                        <img src="img/imgd.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p>  Hamburguesa <br> Americana <br> 27BS. <br> <a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen9.jpeg" alt="">
+                        <img src="img/imgf.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p> Hamburguesa <br> Jumbo(Doble) <br> 32BS. <br><a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen9.jpeg" alt="">
+                        <img src="img/imgh.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p> Hamburguesa <br> Clasica <br> 19BS. <br> <a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen9.jpeg" alt="">
+                        <img src="img/imgi.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p> Trancapecho<br> 19BS. <br> <a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen9.jpeg" alt="">
+                        <img src="img/imgj.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p> Pipocas <br> de pollo <br> 25BS. <br><a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen9.jpeg" alt="">
+                        <img src="img/imgk.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p>Pique Macho <br> Entero 70BS. <br> Medio 40BS. <br> <a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen9.jpeg" alt="">
+                        <img src="img/imgL.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p> Milanesa<br> Criolla <br> (Res o pollo) <br> 27BS. <br> <a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen9.jpeg" alt="">
+                        <img src="img/imgm.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p> Milanesa<br> Parmesana <br> (Res o pollo) <br> 27BS. <br><a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen9.jpeg" alt="">
+                        <img src="img/imgñ.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p> Milanesa<br> Napolitana <br> (Res o pollo) <br> 27BS. <br> <a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                     <div class="imagen-port">
-                        <img src="img/imagen9.jpeg" alt="">
+                        <img src="img/imgy.png" alt="">
                         <div class="hover-galeria">
-                            <p>Nuestro trabajo</p>
+                            <p> Lomo<br> al plato <br> 30BS. <br> <a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/imgz.png" alt="">
+                        <div class="hover-galeria">
+                            <p> Milanesa<br> Montada <br> (Res o pollo) <br> 23BS. <br> <a href="#">
+                                <input type="button" value="Detalles">
+                            </a> </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="contacto">
+            <div class="contenedor">
+
+                <h1 class="titulo">Contactanos</h1>
+
+                <div class="contact-wrapper animated bounceInUp">
+                    <div class="contact-form">
+                        <h3></h3>
+                        <form action="">
+                            <p>
+                                <label>Nombre completo</label>
+                                <input type="text" name="fullname">
+                            </p>
+                            <p>
+                                <label>Dirección de correo electrónico</label>
+                                <input type="email" name="email">
+                            </p>
+                            <p>
+                                <label>Número de teléfono</label>
+                                <input type="tel" name="phone">
+                            </p>
+                            <p>
+                                <label>Asunto</label>
+                                <input type="text" name="affair">
+                            </p>
+                            <p class="block">
+                               <label>Mensaje</label>
+                                <textarea name="message" rows="3"></textarea>
+                            </p>
+                            <p class="dddd"><a href=""><center><button>Enviar</button></center></a>
+
+                            </p>
+                        </form>
+                    </div>
+            </div>
+        </section>
+
         <section class="clientes contenedor">
             <h2 class="titulo">Que dicen nuestros clientes</h2>
             <div class="cards">
                 <div class="card">
-                    <img src="" alt="">
+                    <img src="img/user.png" alt="">
                     <div class="contenido-texto-card">
-                        <h4>Name</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                        <h4>Gloria FloWers </h4>
+                        <p>buena atención y solucionaron un error inmediatamente.  Me sentí muy satisfecha con la velocidad con la que respondieron a mi pedido.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="" alt="">
+                    <img src="img/user.png" alt="">
                     <div class="contenido-texto-card">
-                        <h4>Name</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sapiente!</p>
+                        <h4>Markéx VC</h4>
+                        <p>Excelente atención, y deliciosas!!!!</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="about-services">
+        <section id="servicios" class="about-services">
             <div class="contenedor">
                 <h2 class="titulo">Nuestros servicios</h2>
                 <div class="servicio-cont">
                     <div class="servicio-ind">
-                        <img src="" alt="">
+                        <img src="img/serviR.png" alt="">
                         <h3>Consumo en el lugar</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                        <p> <center>Tenemos nuestras sucursales en las cuales podras pasar a disfrutar de nuestra instancia.</center> </p>
                     </div>
                     <div class="servicio-ind">
-                        <img src="" alt="">
+                        <img src="img/Leevar.png" alt="">
                         <h3>Para llevar</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                        <p> <center> Podras realizar el pedido en el lugar, llevandote el producto.</center></p>
                     </div>
                     <div class="servicio-ind">
-                        <img src="" alt="">
+                        <img src="img/Domi.png" alt="">
                         <h3>Entrega a domicilio</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
+                        <p> <center> Realizamos entregas a domicilio.</center></p>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="about-map">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestra Ubicacion</h2>
+                <div class="servicio-map">
+                    <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61203.220033000325!2d-68.1572373993883!3d-16.515934442255553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f206175318d89%3A0x632dbaa19ddd3f8a!2sLas%20Torres%20Mall!5e0!3m2!1ses!2sbo!4v1651192646844!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></center></iframe>
+                </div>
+            </div>
+        </section>
+
     </main>
     <footer>
         <div class="contenedor-footer">
@@ -201,11 +284,11 @@
             </div>
             <div class="content-foo">
                 <h4>Email</h4>
-                <p>8296312</p>
+                <p>Doñamilanesa@.com</p>
             </div>
             <div class="content-foo">
                 <h4>Localizacion</h4>
-                <p>Patio de comidas, Torres Mall.Av.Arce,La paz, Bolivia</p>
+                <p>La paz | Bolivia</p>
             </div>
         </div>
         <h2 class="titulo-final">&copy; Doña Milanesa | Milanesa</h2>

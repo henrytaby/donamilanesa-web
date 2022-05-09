@@ -28,8 +28,8 @@ header {
     width: 100%;
     height: 600px;
     background: #c31432;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(266, 67%, 13%, 0.671), hsla(350, 81%, 42%, 0.568)), url(../img/Portada.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(266, 67%, 13%, 0.671), hsla(350, 81%, 42%, 0.61)), url(../img/Portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, hsla(266, 67%, 13%, 0.671), hsla(350, 81%, 42%, 0.568)), url(../img/logo-doñ-amilanesa.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(266, 67%, 13%, 0.671), hsla(350, 81%, 42%, 0.61)), url(../img/imagen1.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -153,12 +153,13 @@ main .sobre-nosotros{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: rgba(221, 221, 221, 0.7);
+    background: rgba(8, 0, 0, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 40px;
 }
 
 .hover-galeria img{
@@ -166,8 +167,30 @@ main .sobre-nosotros{
 }
 
 .hover-galeria p{
-    color: black;
+    color:white;
+    flex:inherit;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family:'Orelega One';
 }
+
+.hover-galeria input{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#000000;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#a31010;
+    border-color: #ffffff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:40px;
+}
+
+
 
 .imagen-port:hover .hover-galeria{
     transform: scale(1);
@@ -236,9 +259,11 @@ main .sobre-nosotros{
 }
 
 .servicio-ind p{
-    font-weight: 300;
+    font-weight: 500%;
     text-align: justify;
+
 }
+
 
 
 footer{
@@ -408,5 +433,81 @@ footer{
     .titulo-final{
         font-size: 20px;
     }
+}
+
+.container {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: #B70E21;
+}
+
+
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: white;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: black;
+    border-bottom: 1px solid #d63031;
+    background: cover;
+}
+
+.contact-form form button {
+    background: #B70E21;
+    border: 0;
+    color: white;
+    width: 40%;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #d63031;
+    color: black;
+    transition: background-color 1s ease-out;
+    outline: 0;
 }
 
